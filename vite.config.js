@@ -20,7 +20,7 @@ export default defineConfig({
         port: 3000,
         proxy: {
             '/api': {
-                target: 'http://localhost:5048',
+                target: 'https://app-teamsai-bot.azurewebsites.net',
                 changeOrigin: true,
                 secure: true
             }

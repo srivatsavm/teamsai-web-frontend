@@ -2,7 +2,7 @@
 import { Upload, Send, FileText, MessageCircle, Loader2, AlertCircle, CheckCircle2, User, Bot } from 'lucide-react';
 
 // Get API base URL from environment or use default
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://localhost:5048/api/web';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://app-teamsai-bot.azurewebsites.net/api/web';
 const MAX_FILE_SIZE = parseInt(import.meta.env.VITE_MAX_FILE_SIZE) || 52428800; // 50MB default
 
 const TeamsAIWebApp = () => {
