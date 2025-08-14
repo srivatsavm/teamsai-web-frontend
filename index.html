@@ -6,9 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TeamsAI Document Assistant</title>
     <meta name="description" content="Upload documents and ask questions using AI">
+
+    <!-- Additional meta tags for better SEO and performance -->
+    <meta name="theme-color" content="#2563eb" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Preconnect to external domains for better performance -->
+    <link rel="preconnect" href="https://localhost:5048" />
 </head>
 <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+
+    <!-- Fallback for users with JavaScript disabled -->
+    <noscript>
+        <div style="text-align: center; padding: 50px;">
+            <h1>TeamsAI Document Assistant</h1>
+            <p>This application requires JavaScript to be enabled.</p>
+        </div>
+    </noscript>
 </body>
 </html>
